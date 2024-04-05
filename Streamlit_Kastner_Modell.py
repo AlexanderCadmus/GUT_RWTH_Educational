@@ -10,11 +10,6 @@ Created on Mon Jun 20 10:58:38 2022
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
-from ipywidgets import interact, interactive, fixed, interact_manual
-import ipywidgets as widgets
-import gempy as gp
-import matplotlib.image as mpimg
-import matplotlib as mpl
 from matplotlib.transforms import Affine2D
 import mpl_toolkits.axisartist.floating_axes as floating_axes
 st.set_page_config(layout='wide')
