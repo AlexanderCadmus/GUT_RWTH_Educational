@@ -1,7 +1,4 @@
 streamlit
 numpy
 matplotlib
-ipywidgets
-ipywidgets
-scipy
-GemPy
+mpl_toolkits
