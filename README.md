@@ -1,1 +1,1 @@
-# GUT_RWHT_Educational
+# GUT_RWTH_Educational
