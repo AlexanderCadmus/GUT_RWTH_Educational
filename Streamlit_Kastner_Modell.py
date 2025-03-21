@@ -23,7 +23,7 @@ https://github.com/AlexanderCadmus
 with st.sidebar:
     st.header('''Tunnel Eigenschaften''')
     d = st.slider('Tunnel Durchmesser (d) [m]', min_value=0.5, max_value=50.0, value=10.0, step=0.5, format=None, key=1, help=None, on_change=None, args=None, kwargs=None, disabled=False)
-    rd = np.arange(d,d*5,1)
+    rd = np.arange(d,d*10,1)
     h = st.slider('Tunnel Tiefe (h) [m]', min_value=d, max_value=500.0, value=60.0, step=1.0, format=None, key=2, help=None, on_change=None, args=None, kwargs=None, disabled=False)
     st.header('''__________________________________________________''')
     st.header('''Fels Eigenschaften''')
