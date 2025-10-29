@@ -189,7 +189,7 @@ ax[0].set_xlabel('Breite [m]')
 ax[0].set_ylabel('Hohe [m]')
 ax[0].set_title('Tunnel Querschnitt')
 fig.tight_layout()
-ax[1].axhline(Pv, label=('Pv = '+str(Pv/1000)+' MPa'), c='r', linestyle='--')
+ax[1].axhline(Pv, label=('Pv = '+str(round(Pv/1000,1))+' MPa'), c='r', linestyle='--')
 ax[1].axhline(Ph, label=('Ph = '+str(round(Ph/1000,1))), c='b', linestyle='--')
 ax[1].plot(rm_segment, Krad[rm_segment], label=('Pr = '+str(round(Krad[rm_segment]/1000,1))), c='g')
 ax[1].plot(rm_segment, Ktang[rm_segment], label=('Pt = '+str(round(Ktang[rm_segment]/1000,1))), c='m')
@@ -258,6 +258,7 @@ ax[2].set_ylabel('Hohe [m]')
 ax[2].set_title('Tunnelwand-Segment '+str(dist)+' [m] entfernd von Tunnel-mitte')
 ax[2].legend()
 st.pyplot(fig)
+
 
 
 
